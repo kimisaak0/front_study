@@ -2,6 +2,18 @@
 
 /*선택자:"selecter" // 속성"Property": 속성값"value"; // */
 body {
+    font-family: 고딕,'Franklin Gothic Medium', sans-serif; /*font-family 추가 공부 필요*/
     font-size: 75%; /*웹 브라우저에 기본적으로 설정된 글자 크기는 16px :: */
     line-height: 1.5; /*기본 행간은 글자크기의 1.2배*/
+    background-image: url('../image/bg_blue.jpg');
+    background-size:cover;
+    color:aliceblue;
+}
+
+/*문서가 있는 폴더를 기준으로 같은 폴더에 있는 다른 파일에 접근할 때는 .을 쓰거나 바로 파일명을 쓴다.*/
+/*문서가 있는 폴더를 기준으로 한 단계 위에 있는 폴더에 있는 파일에 접근하고 싶으면 ..을 쓴다.*/
+
+/*선택자를 콤마로 묶어서 선택하는 것을 그룹핑"Grouping"이라고 한다.*/
+h1, h2, h3 {
+    color: seagreen;
 }
