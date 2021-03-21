@@ -5,18 +5,13 @@
   <title>이미지 자세히 보기</title>
 </head>
 <body>
-  <style>
-    area {
-      cursor: pointer;
-    }
-
-  </style>
 
   <h2>이미지 자세히 보기</h4>
   <div> 
     <map name="secret">
-      <area shape="rect" coords="128,202,222,476" target="display" href="in_frame_html/left.html">
-      <area shape="rect" coords="411,210,614,409" target="display" href="in_frame_html/right.html">
+      <area shape="rect" coords="128,202,222,476" target="display" href="in_frame_html/left.html" alt="left">
+      <area shape="rect" coords="411,210,614,409" target="display" href="in_frame_html/right.html" alt="right">
+      <area shape="default" target="display" href="in_frame_html/base.html" alt="right">
     </map>
     <img src="image/food_img.jpg" alt="음식" width="655" usemap="#secret">
   </div>
